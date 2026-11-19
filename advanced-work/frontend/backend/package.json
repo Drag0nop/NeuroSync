@@ -1,0 +1,15 @@
+{
+    "name": "neurosync-backend",
+    "version": "1.0.0",
+    "description": "NeuroSync backend foundation",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "better-sqlite3": "^13.0.3",
+        "dotenv": "^18.0.9",
+        "jsonwebtoken": "^9.0.3"
+    }
+}
