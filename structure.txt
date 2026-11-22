@@ -4,13 +4,16 @@ NeuroSync/
 ├── data/
 │   ├── raw/
 │   │   ├── keyboard/
+│   │   │   └── events.csv
 │   │   ├── mouse/
-│   │   ├── webcam/
+│   │   │   └── events.csv
 │   │   └── applications/
+│   │       └── events.csv
 │   │
 │   ├── processed/
 │   │
 │   └── features/
+│       └── synchronized_features.csv
 │
 ├── collectors/
 │   ├── __init__.py
@@ -26,7 +29,10 @@ NeuroSync/
 │   └── data_cleaning.py
 │
 ├── experiments/
-│   ├── notebooks/
+│   └── notebooks/
+│       ├── 01_data_exploration.ipynb
+│       └── 02_synchronization.ipynb
+│   │
 │   └── reports/
 │
 ├── config/
@@ -36,6 +42,6 @@ NeuroSync/
 │
 ├── main.py
 ├── requirements.txt
-├── .env.example
+├── .env
 ├── .gitignore
 └── README.md
