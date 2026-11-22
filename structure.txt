@@ -1,0 +1,41 @@
+
+NeuroSync/
+│
+├── data/
+│   ├── raw/
+│   │   ├── keyboard/
+│   │   ├── mouse/
+│   │   ├── webcam/
+│   │   └── applications/
+│   │
+│   ├── processed/
+│   │
+│   └── features/
+│
+├── collectors/
+│   ├── __init__.py
+│   ├── keyboard_collector.py
+│   ├── mouse_collector.py
+│   ├── app_collector.py
+│   └── webcam_collector.py
+│
+├── processing/
+│   ├── __init__.py
+│   ├── feature_extraction.py
+│   ├── synchronization.py
+│   └── data_cleaning.py
+│
+├── experiments/
+│   ├── notebooks/
+│   └── reports/
+│
+├── config/
+│   └── settings.py
+│
+├── tests/
+│
+├── main.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md
